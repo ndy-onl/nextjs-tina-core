@@ -1,0 +1,31 @@
+{
+  "name": "@ndy-onl/nextjs-tina-core",
+  "version": "0.0.1",
+  "description": "Core logic package by New Digital Yarn for Next.js and self-hosted TinaCMS integration. Manages reusable components and CMS schema.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "echo \"Build not implemented yet\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "tinacms",
+    "headless-cms"
+  ],
+  "author": "New Digital Yarn",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  }
+}
